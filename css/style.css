@@ -1,0 +1,238 @@
+
+body {
+
+    width: 1000px;
+
+    margin: 0 auto;
+
+    padding: 0px;
+
+    background: gray;
+
+}
+
+article {
+
+    width: 800px;
+
+    background: white;
+
+    color: black;
+
+    border: solid black;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+header {
+
+    background: black;
+
+    padding-left: 10px;
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+    border-bottom: solid, yellow;
+
+}
+
+nav {
+
+    padding-left: 30%;
+
+}
+
+.sub-heading {
+
+    background: gray;
+
+}
+
+.sub-heading > u{
+    text-decoration: yellow;
+}
+
+h1 {
+
+    color: yellow;
+
+    font-family: 'times', serif;
+
+}
+
+h2 {
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+    padding-left: 10px;
+
+    color: black;
+
+    font-family: 'times', serif;
+
+    font-style: italic;
+
+    background: gray;
+
+}
+
+article {
+
+    padding: 20px;
+
+}
+
+hr {
+
+    color: yellow;
+
+}
+
+.banner-area {
+
+    width: 100%;
+
+    height: 300px;
+
+    background-image: url(../images/coworking.jpg);
+
+    background-size: 100%;
+
+}
+
+.banner-area aside {
+
+    height: 200px;
+
+    padding-top: 50px;
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+    padding-bottom: 30px;
+
+    width: 215px;
+
+    float: right;
+
+    margin-top: 10px;
+
+    padding: 5px 0 0 5px;
+
+    opacity: 0.7;
+
+    background: gray;
+
+    line-height: 1.5em;
+
+}
+
+.bottom-panel {
+
+    height: 200px;
+
+    margin-bottom: 10px;
+
+}
+
+.left-panel {
+
+    float: left;
+
+    border-top: 1px solid #99CC33;
+
+    border-right: 1px solid #99CC33;
+
+    border-bottom: 1px solid #99CC33;
+
+    padding-left: 2%;
+
+    padding-right: 2%;
+
+    width: 26%;
+
+    display: table-cell;
+
+}
+
+.centre-panel {
+
+    float: left;
+
+    border-top: 1px solid #99CC33;
+
+    border-right: 1px solid #99CC33;
+
+    border-bottom: 1px solid #99CC33;
+
+    width: 26%;
+
+    padding-left: 2%;
+
+    padding-right: 2%;
+
+    display: table-cell;
+
+}
+
+.right-panel {
+
+    float: left;
+
+    border-top: 1px solid #99CC33;
+
+    border-right: 1px solid #99CC33;
+
+    border-bottom: 1px solid #99CC33;
+
+    width: 26%;
+
+    padding-left: 2%;
+
+    padding-right: 2%;
+
+    display: table-cell;
+
+}
+
+footer {
+
+    padding-left: 10px;
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+    background: black;
+
+    color: white;
+
+}
+
+.button {
+
+    background: gray;
+
+    height: 300px;
+
+    width: 300px;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 0px 5px #ccc;
+
+}
+
+/*old stuff */
