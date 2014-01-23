@@ -25,7 +25,17 @@ article {
 
 a {
 
+    color: white;
+
     text-decoration: none;
+
+    padding-right: 10px;
+
+}
+
+a:hover {
+
+    color: yellow;
 
 }
 
@@ -55,8 +65,10 @@ nav {
 
 }
 
-.sub-heading > u{
-    text-decoration: yellow;
+.sub-heading > h2 > u {
+
+    color: yellow;
+
 }
 
 h1 {
@@ -76,6 +88,8 @@ h2 {
     padding-left: 10px;
 
     color: black;
+
+    text-align: center;
 
     font-family: 'times', serif;
 
@@ -111,7 +125,7 @@ hr {
 
 .banner-area aside {
 
-    height: 200px;
+    height: 250px;
 
     padding-top: 50px;
 
@@ -134,6 +148,28 @@ hr {
     background: gray;
 
     line-height: 1.5em;
+
+}
+
+.banner-area .button-side {
+
+    background: yellow;
+
+    color: gray;
+
+    height: 300px;
+
+    width: 300px;
+
+    margin-top: 10px;
+
+    text-align: center;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 0px 5px #ccc;
 
 }
 
@@ -229,7 +265,7 @@ footer {
 
     padding: 10px;
 
-    border-radius: 10px;
+    border-radius: 5px;
 
     box-shadow: 0px 0px 0px 5px #ccc;
 
